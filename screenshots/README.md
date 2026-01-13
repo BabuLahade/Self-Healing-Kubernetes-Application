@@ -1,20 +1,20 @@
 ## 📸 Project Screenshots
 
 ### Pods Running
-![Pods Running](screenshots/pods-running.png)
+![Pods Running](pods-running.png)
 
 ### App Running 
-![App_Running](screenshots/app-running.png)
+![App_Running](app-running.png)
 
 ### Self-Healing (Pod Restart)
-![Self Healing](screenshots/self-healing-restart.png)
+![Self Healing](self-healing-restart.png)
 
 ### Metrics Server Working
-![Metrics](screenshots/metrics-working.png)
+![Metrics](metrics-working.png)
 
 ### HPA Created
-![HPA](screenshots/hpa-created.png)
+![HPA](/hpa-created.png)
 
 ### Auto-Scaling in Action
-![HPA Scaling](screenshots/hpa-scaling.png)
+![HPA Scaling](hpa-scaling.png)
 
