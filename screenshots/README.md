@@ -4,16 +4,16 @@
 ![Pods Running](pods-running.png)
 
 ### App Running 
-![App_Running](app-running.png)
+![App_Running](running-app.png)
 
 ### Self-Healing (Pod Restart)
 ![Self Healing](self-healing-restart.png)
 
 ### Metrics Server Working
-![Metrics](metrics-working.png)
+![Metrics](metrics-server-created.png)
 
 ### HPA Created
-![HPA](/hpa-created.png)
+![HPA](hpa-created.png)
 
 ### Auto-Scaling in Action
 ![HPA Scaling](hpa-scaling.png)
