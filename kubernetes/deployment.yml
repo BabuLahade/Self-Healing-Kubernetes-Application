@@ -17,7 +17,14 @@ spec :
       - name : app
         image : self-healing-app:1.0
         ports : 
-        - containerPort : 5000
+        - containerPort : 5000 
+
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "200m"
+ 
 
         livenessProbe :
           httpGet:
