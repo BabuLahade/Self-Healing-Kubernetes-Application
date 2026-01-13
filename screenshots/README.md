@@ -3,6 +3,9 @@
 ### Pods Running
 ![Pods Running](screenshots/pods-running.png)
 
+### App Running 
+![App_Running](screenshots/app-running.png)
+
 ### Self-Healing (Pod Restart)
 ![Self Healing](screenshots/self-healing-restart.png)
 
