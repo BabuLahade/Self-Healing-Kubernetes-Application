@@ -1,10 +1,10 @@
-# 🚀 Project 2 — Self‑Healing & Auto‑Scaling Kubernetes Application
+#  Project 2 — Self‑Healing & Auto‑Scaling Kubernetes Application
 
 This project demonstrates **Kubernetes self‑healing and auto‑scaling** using liveness/readiness probes and **Horizontal Pod Autoscaler (HPA)**. It is designed to showcase **production‑grade reliability patterns** and is fully reproducible.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Prove **self‑healing**: pods automatically restart on failure
 * Prove **auto‑scaling**: pods scale based on CPU utilization
@@ -12,7 +12,7 @@ This project demonstrates **Kubernetes self‑healing and auto‑scaling** using
 
 ---
 
-## 🧱 Architecture Overview
+##  Architecture Overview
 
 User Traffic → Kubernetes Service → Deployment (Replicas)
 → Liveness/Readiness Probes → Auto‑Restart
