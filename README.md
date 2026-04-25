@@ -22,7 +22,7 @@ User Traffic → Kubernetes Service → Deployment (Replicas)
 
 ## 🛠️ Tech Stack
 
-* Kubernetes (KIND)
+* Kubernetes 
 * Docker
 * Python (Flask)
 * metrics‑server
