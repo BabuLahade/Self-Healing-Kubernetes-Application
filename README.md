@@ -215,3 +215,4 @@ kubectl get hpa -w
 ## ✅ Status
 
 **Completed and production‑ready** 🚀
+VPA will be added soon
