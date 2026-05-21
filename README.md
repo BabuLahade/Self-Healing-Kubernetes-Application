@@ -20,7 +20,7 @@ User Traffic → Kubernetes Service → Deployment (Replicas)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Kubernetes 
 * Docker
@@ -31,7 +31,7 @@ User Traffic → Kubernetes Service → Deployment (Replicas)
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 self-healing-k8s-app/
@@ -50,7 +50,7 @@ self-healing-k8s-app/
 
 ---
 
-## ⚙️ Application
+##  Application
 
 The Flask application exposes two endpoints:
 
@@ -61,7 +61,7 @@ This allows controlled testing of Kubernetes self‑healing.
 
 ---
 
-## 🐳 Build & Load Image
+##  Build & Load Image
 
 ```bash
 docker build -t self-healing-app:1.0 -f docker/Dockerfile .
@@ -70,7 +70,7 @@ kind load docker-image self-healing-app:1.0 --name cicd-cluster
 
 ---
 
-## ☸️ Kubernetes Deployment
+##  Kubernetes Deployment
 
 ```bash
 kubectl apply -f kubernetes/deployment.yml
@@ -86,7 +86,7 @@ kubectl get svc
 
 ---
 
-## ♻️ Self‑Healing Test
+##  Self‑Healing Test
 
 1. Port‑forward the service:
 
@@ -110,7 +110,7 @@ kubectl get pods
 
 ---
 
-## 📊 Metrics & HPA Setup
+##  Metrics & HPA Setup
 
 ### Install metrics‑server (KIND compatible)
 
@@ -138,7 +138,7 @@ kubectl top pods
 
 ---
 
-## 📈 Enable Auto‑Scaling (HPA)
+##  Enable Auto‑Scaling (HPA)
 
 Ensure CPU requests are set in the Deployment, then create HPA:
 
@@ -157,7 +157,7 @@ kubectl get hpa
 
 ---
 
-## 🔥 Auto‑Scaling Test
+##  Auto‑Scaling Test
 
 Generate load:
 
@@ -175,7 +175,7 @@ kubectl get hpa -w
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Pods Running
 ![Pods Running](screenshots/pods-running.png)
@@ -197,7 +197,7 @@ kubectl get hpa -w
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * Kubernetes automatically restarts failed containers
 * Liveness & readiness probes are critical for reliability
@@ -206,13 +206,13 @@ kubectl get hpa -w
 
 ---
 
-## 🎤 Interview Ready Summary
+##  Interview Ready Summary
 
 > “I built a self‑healing and auto‑scaling Kubernetes application using liveness probes, metrics‑server, and HPA, and validated it by simulating crashes and CPU load.”
 
 ---
 
-## ✅ Status
+##  Status
 
-**Completed and production‑ready** 🚀
+**Completed and production‑ready** 
 VPA will be added soon
